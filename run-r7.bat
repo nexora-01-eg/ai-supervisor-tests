@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "In app.py only, fix two bugs: (1) parse ISO date strings like 2023-12-31 into Python date objects with datetime.strptime before saving due_date, returning 400 JSON on bad format, in both create and update endpoints; (2) replace every task_schema.jsonify(x) and tasks_schema usage with Flask jsonify(task_schema.dump(x)) because plain marshmallow has no jsonify method. Change nothing else. Then run pytest until green." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\r7.log" 2>&1

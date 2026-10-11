@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "In app.py only: GET /tasks must return 422 JSON errors for invalid status or priority query values instead of silently ignoring them. In test_app.py only: add tests for text search, status filter, priority filter, combined filters, invalid status returning 422, invalid priority returning 422, and GET unknown id returning 404. Keep all existing tests passing. Then run pytest until green." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\r9a.log" 2>&1

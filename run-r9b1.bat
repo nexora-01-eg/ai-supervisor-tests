@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "Create only one new file index.html: a simple local task-manager page with vanilla JavaScript using fetch against this Flask API (GET /tasks list with q/status/priority query params, POST /tasks create, PUT /tasks/<id> update, DELETE /tasks/<id> delete). Include a search box and status/priority dropdowns. No CDN, no build step, no external services. Do not touch other files. Then run pytest." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\r9b1.log" 2>&1

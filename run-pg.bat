@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "Add pagination to GET /tasks only: accept page and per_page query params (defaults 1 and 10, 422 on invalid values), combine with existing q/status/priority filters, return JSON object with items, page, per_page and total keys. Update index.html with Previous/Next buttons. Do not change other endpoints. Then run pytest until green." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\rpg.log" 2>&1

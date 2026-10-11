@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "Add a simple local frontend: index.html with vanilla JavaScript using fetch against the Flask API (list, create, update status, delete, search box, status and priority dropdowns). No CDN, no build step, no external services. Add README.md with installation, how to run locally, API endpoint docs, and how to run tests. Delete the two junk files whose names are full English sentences. Add instance/ and __pycache__/ to .gitignore. Then run pytest until green." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\r9b.log" 2>&1

@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "Set up the data layer for the existing Flask app.py: pip install flask flask-sqlalchemy marshmallow pytest, then create models.py with SQLAlchemy Task model (id integer PK, title, description, status, priority, due_date, created_at, updated_at, SQLite) and schemas.py with marshmallow TaskSchema. Keep everything local." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\r1.log" 2>&1

@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "Review this Flask task API for real bugs only: broken validation, wrong HTTP codes, incorrect todo/doing/done handling, SQLite session problems, unhandled None/missing JSON body, and datetime serialization issues. If you find exactly one real bug, fix it minimally. Do not refactor. Then run pytest until green." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\review.log" 2>&1

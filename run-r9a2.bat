@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "In test_app.py only: append new tests for text search via q param, status filter, priority filter, combined q+status filter, invalid status returning 422, invalid priority returning 422, and GET unknown id returning 404. Keep every test independent with database cleanup. Do not touch other files. Then run pytest until green." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\r9a2.log" 2>&1

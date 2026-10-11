@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "In test_app.py only: GET /tasks now returns a pagination object with items, page, per_page and total keys instead of a bare list. Update the five failing tests (test_get_tasks, test_text_search, test_status_filter, test_priority_filter, test_combined_filter) to read the items list from the response object. Change nothing else. Then run pytest until green." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\r10.log" 2>&1

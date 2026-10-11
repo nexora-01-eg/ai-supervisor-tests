@@ -1,0 +1,3 @@
+@echo off
+cd /d "C:\Users\NOUR SOFT\Documents\AI-Agent-Orchestrator"
+"C:\Users\NOUR SOFT\AppData\Local\Programs\Python\Python311\python.exe" agent_orchestrator.py run --project "C:\AI-Supervisor-Tests\task-manager" --task "Two small fixes so the frontend actually works: (1) in app.py add a GET / route that serves index.html from the project folder using send_from_directory; (2) in index.html fix displayTasks to read the items array from the paginated API response object instead of iterating the response directly. Change nothing else. Then run pytest." --mode AUTO > "C:\AI-Supervisor-Tests\task-manager\rserve.log" 2>&1
